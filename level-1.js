@@ -15,12 +15,12 @@ var person = {
 // question 3
 
 var outOfStock = true;
-if(outOfStock === true) {
-    console.log("Out of stock");
-}
-else {
-    console.log("In stock");
-}
+    if(outOfStock === true) {
+        console.log("Out of stock");
+    }
+    else {
+        console.log("In stock");
+    }
 
 
 // question 4
@@ -83,3 +83,22 @@ whatIDontLike("spiders");
 
 // question 9
 
+function edibleBerries(freshStrawberries, badStrawberries) {
+    var sum = freshStrawberries - badStrawberries;
+    console.log(sum + " Strawberries are edible");
+}
+
+edibleBerries(20, 5)
+
+
+// question 10
+
+var desserts = [];
+
+function addDessert(cake) {
+    desserts.push(cake);
+}
+
+addDessert("chocolatecake");
+
+console.log(desserts);
